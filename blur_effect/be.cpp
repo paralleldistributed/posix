@@ -109,7 +109,7 @@ int main(int n, char* argv[])
 	float radio = -1;
 	cv::Mat src;
 
-	//	Prueva que los parametros esten completos
+	//	Prueba que los parametros esten completos
 	if (n != 4) {
 		printf("blur <ruta img> <kernel> <thread>\n");
 		return 0;
@@ -186,7 +186,7 @@ int main(int n, char* argv[])
 
 	/*cv::namedWindow("initial");*/
 	/*cv::imshow("initial", src);*/
-	imwrite("../thread_blur.jpg", src);
+	imwrite("./thread_blur.jpg", src);
 
 	/*cv::waitKey(0);*/
 
